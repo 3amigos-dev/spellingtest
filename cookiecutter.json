@@ -1,6 +1,6 @@
 {
     "project_name":  "spellingtest",
-    "project_long_name":  "{{ cookiecutter.project_long_name}}",
+    "project_long_name": "{{ cookiecutter.project_name}}",
     "project_description": "Utilities for testing pyspelling filters",
     "project_long_description": "{{ cookiecutter.project_description }}",
     "project_slug":  "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}",
