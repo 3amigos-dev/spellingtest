@@ -1,7 +1,7 @@
 """
 Test modules for:
 
-module_goes_here.__main__
+spellingtest.__main__
 """
 
 
@@ -11,7 +11,7 @@ def test_main():
     executes successfully with a result of `None`
     """
     # Setup
-    from module_goes_here.__main__ import main
+    from spellingtest.__main__ import main
 
     # Exercise
     result = main()  # pylint: disable=assignment-from-no-return
