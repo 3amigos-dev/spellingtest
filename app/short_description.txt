@@ -1,1 +1,1 @@
-3Amigos Python GitHub Template
+Utilities for testing pyspelling filters
