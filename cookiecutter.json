@@ -18,7 +18,7 @@
     "maintainer_name": "{{ cookiecutter.author_name }}",
     "maintainer_email": "{{ cookiecutter.author_email }}",
     "project_email": "{{ cookiecutter.maintainer_email }}",
-    "azure_buildid": "6",
+    "azure_buildid": "18",
     "azure_user": "timgates",
     "azure_project": "{{ cookiecutter.azure_user }}",
     "build_status_url": "https://dev.azure.com/{{ cookiecutter.azure_user }}/{{ cookiecutter.azure_project }}/_apis/build/status/{{ cookiecutter.github_org }}.{{ cookiecutter.github_repo }}?branchName=master",
