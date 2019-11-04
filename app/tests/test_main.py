@@ -4,6 +4,8 @@ Test modules for:
 spellingtest.__main__
 """
 
+from spellingtest.__main__ import main
+
 
 def test_main():
     """
@@ -11,8 +13,6 @@ def test_main():
     executes successfully with a result of `None`
     """
     # Setup
-    from spellingtest.__main__ import main
-
     # Exercise
     result = main()  # pylint: disable=assignment-from-no-return
     # Verify

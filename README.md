@@ -1,6 +1,6 @@
 # spellingtest
 
-[![Azure Status](https://dev.azure.com/timgates/timgates/_apis/build/status/replendent-dev.spellingtest?branchName=master)](https://dev.azure.com/timgates/timgates/_build/latest?definitionId=6&branchName=master)
+[![Azure Status](https://dev.azure.com/timgates/timgates/_apis/build/status/replendent-dev.spellingtest?branchName=master)](https://dev.azure.com/timgates/timgates/_build/latest?definitionId=18&branchName=master)
 [![Travis Status](https://travis-ci.org/replendent-dev/spellingtest.svg?branch=master)](https://travis-ci.org/replendent-dev/spellingtest)
 [![Appveyor Status](https://ci.appveyor.com/api/projects/status/arf9j0ri5v0kg368?svg=true)](https://ci.appveyor.com/project/timgates42/spellingtest)
 [![PyPI version](https://img.shields.io/pypi/v/spellingtest.svg)](https://pypi.org/project/spellingtest)
