@@ -113,6 +113,7 @@ class PluginTestCase(unittest.TestCase):
 
         self.tempdir = TESTFN + "_dir"
         self.origdir = os.getcwd()
+        os.makedirs(self.tempdir)
         os.chdir(self.tempdir)
         self.setup_fs()
 
