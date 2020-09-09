@@ -9,5 +9,6 @@ cd "${TOP}"
 git checkout -- \
  app/pip/3.4/app/requirements.txt \
  app/spellingtest/check.py \
+ app/spellingtest/version.py \
  app/tests/test_check.py \
  NEWS.rst
