@@ -112,6 +112,8 @@ class PluginTestCase(unittest.TestCase):
         """Setup."""
 
         self.tempdir = TESTFN + "_dir"
+        self.origdir = os.getcwd()
+        os.chdir(self.tempdir)
         self.setup_fs()
 
     def setup_fs(self):
@@ -119,6 +121,7 @@ class PluginTestCase(unittest.TestCase):
 
     def tearDown(self):
         """Cleanup."""
+        os.chdir(self.origdir)
 
         retry = 3
         while retry:
